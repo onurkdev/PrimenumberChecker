@@ -8,7 +8,7 @@ namespace PrimenumberChecker
         {
             int checknumber;
            
-            Console.WriteLine("Lütfen Asal sayı kontrolü giriniz.");
+            Console.WriteLine("Lütfen Asal sayı kontrolü için sayı giriniz.");
             checknumber = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 2; i < checknumber; i++) {
